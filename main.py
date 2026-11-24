@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from contextlib import asynccontextmanager
 from core.database import engine, Base
 from core.config import settings
-
+from models.repuesto import Repuesto
 from models.orden import Orden
 from models.mecanico import Mecanico
 
